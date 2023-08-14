@@ -1,0 +1,267 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+
+body {
+  font-family: "Raleway";
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #BCAAA4;
+  -webkit-font-smoothing: antialiased;
+} 
+
+.sub-btn{
+  margin-right: 20px;
+}
+
+.menu-item .sub-menu{
+  list-style-type: none;
+  position: absolute;
+  margin: 2;
+  padding: 0;
+  width: 100px;
+  background-color: #ffffff;
+  top:55px;
+  line-height: 80px;
+  list-style: none;
+  box-shadow: 0 5px 25px rgba(0 0 0 / 20%);
+pointer-events: none;
+transform: translateY(20px);
+opacity: 0;
+}
+
+
+
+.menu-item:hover .sub-menu {
+  
+  pointer-events: all;
+  transform: translateY(0);
+  opacity: 1;
+  }
+.menu-item .sub-menu .sub-item{
+  font-size: 1em;
+  color: #302f2f;
+  padding-left: 10px;
+cursor: pointer;
+margin: 0;
+}
+
+ .sub-menu .sub-item a{
+text-decoration: none;
+}
+
+
+
+
+
+/* nav bar**/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+
+
+
+
+
+
+
+.nav
+{
+  margin-bottom: 80px;
+  justify-content: center;
+}
+/* fin nav bar*/
+
+.slide-container {
+  margin: 40x;
+  width: 100%;
+
+}
+
+.wrapper {
+  display: flex;
+
+  display: inline-block;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  padding-left: 0px;
+
+  margin-right: 20px;
+  width: 300px;
+  height:auto;
+  &:focus {
+    outline: 0;
+    text-align:left;
+    display: flex;
+    flex-flow: column wrap;
+justify-content: center;
+
+  }
+}
+
+
+.clash-card {
+  background: white;
+  width: 300px;
+  display: inline-block;
+  margin: auto;
+  border-radius: border-radius-size + 5;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+
+}
+
+.clash-card__image {
+  position: relative;
+  height: 300px;
+  margin-bottom: 5px;
+  border-top-left-radius: border-radius-size;
+  border-top-right-radius: border-radius-size;
+}
+
+.clash-card__image--barbarian {
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg');
+
+  img {
+    width: 250px;
+    position: absolute;    
+    top: -65px;
+    left: -70px;
+  }
+}
+
+.clash-card__image--archer {
+
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/archer-bg.jpg');
+  img {
+    width: 25%;
+    position: absolute;    
+    top: -34px;
+    left: -37px;
+  }
+}
+
+.clash-card__image--giant {
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/giant-bg.jpg');
+  img {
+    width: 250;
+    position: absolute;    
+    top: -30px;
+    left: -25px;
+  }
+}
+
+.clash-card__image--goblin {
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/goblin-bg.jpg');
+  img {
+    width: 250;
+    position: absolute;    
+    top: -21px;
+    left: -37px;
+  }
+}
+
+.clash-card__image--wizard {
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard-bg.jpg');
+  img {
+    width: 200px;
+    position: absolute;    
+    top: -20px;
+    left: -10px;
+  }
+}
+
+.clash-card__level {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 3px;
+}
+
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clash-card__level--barbarian {
+  color:  #EC9B3B;
+}
+
+.clash-card__level--archer {
+  color: #EE5487;
+}
+
+.clash-card__level--giant {
+  color:#F6901A;
+}
+
+.clash-card__level--goblin {
+  color:  #82BB30;
+}
+
+.clash-card__level--wizard {
+  color:  #4FACFF;
+}
+
+.clash-card__unit-name {
+  font-size: 26px;
+  color: black;
+  font-weight: 900;
+  margin-bottom: 5px;
+  padding-top: 5px;
+}
+
+.clash-card__unit-description {
+  padding: 20px;
+  margin-bottom: 10px;  
+}
+
+.clash-card__unit-stats--barbarian {
+  
+  .one-third {
+     border-right: 1px solid #BD7C2F;
+  }
+}
+
+
+
+
+.tit{
+  font-weight: bold;
+  margin: 5px;
+  margin-bottom: 2px;
+}
+
+
+
+
+/*n nav */
+
